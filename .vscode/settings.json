@@ -1,0 +1,22 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "build": true,
+    "node_modules": true,
+    ".idea": true
+  },
+  "beautify.tabSize": 2,
+  "beautify.options": {
+    "preserve_newlines": true
+  },
+  "color-highlight.matchWords": false,
+  "eslint.enable": true,
+  "eslint.packageManager": "yarn",
+  "typescript.autoImportSuggestions.enabled": false,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

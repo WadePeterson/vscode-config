@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 15,   
+    "editor.insertSpaces": true,
+    "editor.renderIndentGuides": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.tabSize": 2,
+    "eslint.enable": true,
+    "files.autoSave": "onFocusChange",
+    "javascript.validate.enable": false, // required for flow
+    "workbench.editor.showTabs": false,
+    "window.zoomLevel": 0,
+    "javascript.implicitProjectConfig.checkJs": true,
+    "typescript.autoImportSuggestions.enabled": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true,
+    },
+    "gitlens.keymap": "alternate",
+    "gitlens.codeLens.scopes": [
+        "document"
+    ],
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.historyExplorer.enabled": true
+}
